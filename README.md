@@ -36,12 +36,23 @@ Criação da  pasta "node_modeules" e o arquivo: "package-lock.json".
 Irá executar a tarefa no caso abrir o Cypress criando as pastas estruturadas necessárias para o projeto.
 * Obs: 
  - O comando "npm cypress open" => cria a estrutura que é a pasta padrão e abre o cypress.
- - A primeira vez que roda o cypress, ira aparecer uma mensagem onde o Cypress identifica e irá realizar uma configuração de compatibilidade.
- - Então caso ocorra algum erro de time out, basta rodar novamento o comando "npx cypress open". 
-        
+ - A primeira vez que roda o cypress, ira aparecer uma mensagem onde o Cypress identifica e irá realizar uma verificação de compatibilidade.
+ ![exemplo1](https://github.com/FacilitaQA/criandoPrimeiroProjeto/assets/133148733/ec068dd6-5bd0-42e4-9c21-8474b9a52034)
+ 
+ - Então caso ocorra algum erro de time out, basta rodar novamento o comando "npx cypress open" e click em "E2E Testing".
+![melhor](https://github.com/FacilitaQA/criandoPrimeiroProjeto/assets/133148733/51121605-6cad-42aa-8282-af11ae011cef)
+ - E selecione um browser
+ ![escolhao navegador](https://github.com/FacilitaQA/criandoPrimeiroProjeto/assets/133148733/1f10173c-9a2f-4d34-9fef-e4fc855bdadd)
+ - E selecione a opção com exemplos de testes
+ ![sacffold](https://github.com/FacilitaQA/criandoPrimeiroProjeto/assets/133148733/8243fd92-0725-4f9c-a118-313bd9785856)
+ - E selecione "ok git it"
+ ![ok got it](https://github.com/FacilitaQA/criandoPrimeiroProjeto/assets/133148733/f5860e2d-b0ce-472f-8fa0-c3533f4ca068)
+
  ### Estrutura Básica:       
-Ao final será aberto o Cypress Test Runner, com alguns arquivos de exemplo para vc estudar sobre o nosso querido cypress.
-Também cria a estrutura de pastas na raiz do projeto.
+Ao final do precesso, além de criar a estrutura de pastas do projeto, será aberto o Cypress Test Runner, com alguns arquivos de exemplo para vc estudar sobre o nosso querido cypress.
+![runner](https://github.com/FacilitaQA/criandoPrimeiroProjeto/assets/133148733/06484fbb-3abe-44dc-8a24-b5a39d34e9cc)
+
+# Estrutura Inicial:
 Esta pasta leva o nome de "cypress", sendo ela composta por outras 4 pastinhas:
 ## 1° - pasta "cypress"
   ### 1° pasta "fixtures": 
