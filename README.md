@@ -8,10 +8,21 @@ Para realizar a execução completa siga as instruções abaixo.
 Para rodar o Cypress no Windows, você precisará ter os seguintes requisitos:
 
 ## Node.js: 
-O Cypress requer o Node.js instalado no seu sistema. Você pode baixar o instalador do Node.js no site oficial (https://nodejs.org) e seguir as instruções para instalação.
+O Cypress requer o Node.js instalado no seu sistema. 
+Você pode baixar o instalador do Node.js no site oficial (https://nodejs.org) e seguir as instruções para instalação.
+Ou seguir os passos abaixo:
+ 1° Acesse o site oficial do Node.js em https://nodejs.org.
+ 2° Na página inicial, você verá dois botões de download: "LTS" e "Current". Recomenda-se clicar no botão "LTS" (Long-Term Support) para obter a versão estável mais recente do Node.js.
+ 3° Após clicar no botão "LTS", o instalador será baixado para o seu computador. Procure o arquivo baixado e execute-o.
+ 4° Siga as instruções do instalador para concluir a instalação do Node.js. Durante o processo, você pode deixar as configurações padrão ou personalizá-las de acordo com suas preferências.
+Após a conclusão da instalação, abra o prompt de comando ou o PowerShell e digite o seguinte comando (node --version), para verificar se o Node.js foi instalado corretamente.
 
 ## npm: 
-O npm (Node Package Manager) é instalado automaticamente junto com o Node.js. Certifique-se de ter uma versão atualizada do npm, que geralmente é incluída na instalação do Node.js.
+O npm (Node Package Manager) é instalado automaticamente quando você instala o Node.js. 
+Portanto, para instalar o npm no Windows, você precisa seguir as etapas para instalar o Node.js, como mencionado anteriormente. 
+Não é necessário instalar o npm separadamente.
+Para verificar se o npm está instalado corretamente após a instalação do Node.js, você pode abrir o prompt de comando ou o PowerShell e executar o seguinte comando (npm --version).
+
 
 ## Editor de código: 
 Você pode usar qualquer editor de código de sua preferência para escrever seus testes no Cypress. 
@@ -28,7 +39,7 @@ Inicializa um projeto Node -  para ser o nosso gerenciador de pacotes.
 Criação do arquivo "package.json".
 
 ## 2°  "npm install -D cypress" 
-ou alguma versão específica  exemplo => "npm install cypress@0.0.0" 
+ou alguma versão específica  netse exemplo utilizamos a versão (12.12.0) "npm install cypress@12.12.0" 
 Instala como dependência de desenvolvimento. 
 Criação da  pasta "node_modeules" e o arquivo: "package-lock.json".
 
