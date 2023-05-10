@@ -1,5 +1,5 @@
 # criandoPrimeiroProjeto
-Com este projeto você conseguira criar seu primeiro projeto com Cypress.
+Meu primeiro projeto com Cypress.
 
 Para realizar a execução completa siga as instruções abaixo.
 
